@@ -1,6 +1,6 @@
 package com.dkgtech.kotlinbasics
 
-fun main(){
+fun main() {
 
     val above70 = false
     val knowsProgramming = true
@@ -14,4 +14,11 @@ fun main(){
 
     calledForInterview = above70 || knowsProgramming
     println(calledForInterview)
+
+
+//    ! NOT Operator
+
+    val answer = false
+    val result = !answer
+    println(result)
 }
