@@ -1,7 +1,11 @@
 package com.dkgtech.kotlinbasics
 
+import java.util.Scanner
+
 fun main() {
-    val count = 5
+
+    println("Enter any number for its table")
+    val count = readln().toInt()
     var index = 1
 
     while (index <= 10) {
