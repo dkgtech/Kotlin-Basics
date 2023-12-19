@@ -31,4 +31,17 @@ fun main() {
     i--
     println(i)
 
+    var num = 2
+//    println(num++)
+//    println(num)
+
+    println(num++ + ++num)  // 2 + 4 = 6
+
+    var num1 = 3
+    println(num1--)
+    println(num1)
+
+    println(num1-- + --num1)
+
+
 }
