@@ -1,6 +1,5 @@
 package com.dkgtech.kotlinbasics
 
-import java.util.Scanner
 
 fun main() {
 
@@ -27,6 +26,5 @@ fun main() {
             println("Happy")
             count++
         } while (count <= 5)*/
-
 
 }
