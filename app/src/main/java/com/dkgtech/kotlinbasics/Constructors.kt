@@ -34,8 +34,8 @@ class Empty {}
 
 class Person(nameParam: String, ageParam: Int) {
 
-    val name: String = nameParam
-    val age: Int = ageParam
+    var name: String = nameParam
+    var age: Int = ageParam
     val canVote: Boolean = ageParam > 18
 
 }
