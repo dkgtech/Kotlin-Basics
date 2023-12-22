@@ -1,6 +1,7 @@
 package com.dkgtech.kotlinbasics
 
 class ObjectClass {
+
 }
 
 fun main() {
